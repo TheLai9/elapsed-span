@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elapsed-span"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "numba>=0.61,<1"]
+license = {file = "LICENSE"}
+authors = [{name = "Authors"}]
+
+[tool.setuptools]
+packages = ["elapsed_span"]
